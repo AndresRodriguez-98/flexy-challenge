@@ -11,7 +11,7 @@ const Input = ({ name, type, placeholder, registerValidators }) => {
   return (
     <div>
       <input
-        className="bg-gray-200 w-80 h-12 py-2 px-10 text-gray-400 rounded-lg outline-none"
+        className="bg-gray-200 h-12 py-2 w-full text-gray-400 rounded-lg outline-none"
         type={type}
         placeholder={placeholder}
         {...register(name, registerValidators)}
