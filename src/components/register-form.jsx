@@ -3,7 +3,7 @@ import { useFormContext } from "react-hook-form";
 import Input from './Input'
 import FileInput from "./file-input";
 
-/* Validaciones */
+/* Validaciones y formulario */
 
 const nameRules = {
   required: "Debe ingresar un nombre completo",
@@ -12,6 +12,8 @@ const nameRules = {
     message: "El nombre no puede superar los 50 caracteres.",
   },
 };
+
+// Expresión regular para telefonos de argentina con el +54 opcional, sin espacios
 const phoneRules = {
   required: "Debe ingresar un teléfono",
   pattern: {
@@ -56,6 +58,7 @@ const RegisterForm = () => {
 
       <Input name="email" type="text" placeholder="hola@tuemail.com" rules={emailRules} />
 
+      {/* Input Password con el icono del ojo funcionando */}
       <div style={{ display: "flex" }} className="flex-col justify-center">
         <Input
           name="password"
@@ -101,10 +104,13 @@ const RegisterForm = () => {
         />
       </div>
 
+      {/* Modo desktop tiene el siguiente tag p: */}
       <p className="hidden md:block text-[0.775rem] text-[#6C727F] text-center mt-[-1rem]">Debe tener al menos 8 caracteres.</p>
 
+      {/* Modo mobile tiene el siguiente tag p: */}
       <p className="sm:hidden text-[#7065F0] text-center font-medium text-base">¿Olvidaste tu contraseña?</p>
 
+      {/* Botón Registrate */}
       <input
         type="submit"
         className="flex justify-center items-center w-full h-12 cursor-pointer bg-gradient-to-r from-[#6941C6] to-[#7065F0] rounded-lg text-white font-bold"

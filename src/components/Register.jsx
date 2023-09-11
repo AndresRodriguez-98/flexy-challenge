@@ -4,6 +4,8 @@ import Flexy from "./../assets/flexy.png";
 import BgImage from "./../assets/inicia-sesión-agente.jpg";
 import RegisterForm from "./register-form";
 
+// Componente principal, con el formulario, los titulos, el logo de la empresa y la imagen del background
+
 const Register = () => {
   const methods = useForm({
     mode: 'all',

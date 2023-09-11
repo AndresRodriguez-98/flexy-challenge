@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import Icon from "./../assets/image_upload.svg";
 import IconPlus from "./../assets/image_upload_plus.svg";
 
+// Componente para subir archivos
+
 const FileInput = () => {
   const inputFile = useRef(null);
   return (

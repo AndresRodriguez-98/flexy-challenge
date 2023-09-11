@@ -1,6 +1,8 @@
 import React from "react";
 import { useController } from "react-hook-form";
 
+// Componente general para los 4 inputs
+
 const Input = ({ name, type, placeholder, rules, endIcon }) => {
   const {
     field,
