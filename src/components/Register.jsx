@@ -23,7 +23,7 @@ const Register = () => {
             </div>
           </div>
           <div className="flex justify-end sm:block sm:justify-normal">
-            <hr className="w-[50%] sm:w-full mt-5 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
+            <hr className="w-[50%] sm:w-full mt-5 h-px bg-gray-200 border-0"></hr>
           </div>
         </div>
 
