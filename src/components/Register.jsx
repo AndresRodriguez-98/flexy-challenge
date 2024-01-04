@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm, FormProvider } from "react-hook-form";
-import Flexy from "./../assets/flexy.png";
-import BgImage from "./../assets/inicia-sesión-agente.jpg";
+import Logo from "./../assets/login-logo.png";
+import BgImage from "./../assets/bg-img-login.png";
 import RegisterForm from "./register-form";
 
 // Componente principal, con el formulario, los titulos, el logo de la empresa y la imagen del background
@@ -18,8 +18,9 @@ const Register = () => {
         {/* Flexy Top Nav */}
         <div>
           <div className="flex justify-end sm:block sm:justify-normal">
-            <div className="pt-7">
-              <img src={Flexy} alt="Flexy logo" />
+            <div className="pt-7 flex flex-row items-center">
+              <img src={Logo} alt="Flexy logo" className="w-24" />
+              <h1 className="text-[#49CEB1] font-bold text-4xl">Login</h1>
             </div>
           </div>
           <div className="flex justify-end sm:block sm:justify-normal">
@@ -35,7 +36,7 @@ const Register = () => {
                 ¡Bienvenido!
               </h2>
               <p className="text-center sm:text-left font-medium text-[#000929] opacity-50 mt-2 mb-4">
-                Convertite ahora en un agente Flexy.
+                Ingresá tus datos y registrate.
               </p>
             </div>
 

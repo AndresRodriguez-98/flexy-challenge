@@ -108,12 +108,12 @@ const RegisterForm = () => {
       <p className="hidden md:block text-[0.775rem] text-[#6C727F] text-center mt-[-1rem]">Debe tener al menos 8 caracteres.</p>
 
       {/* Modo mobile tiene el siguiente tag p: */}
-      <p className="sm:hidden text-[#7065F0] text-center font-medium text-base">¿Olvidaste tu contraseña?</p>
+      <p className="sm:hidden text-[#4DC3DD] text-center font-medium text-base">¿Olvidaste tu contraseña?</p>
 
       {/* Botón Registrate */}
       <input
         type="submit"
-        className="flex justify-center items-center w-full h-12 cursor-pointer bg-gradient-to-r from-[#6941C6] to-[#7065F0] rounded-lg text-white font-bold"
+        className="flex justify-center items-center w-full h-12 cursor-pointer bg-gradient-to-r from-[#4DC3DD] to-[#49CEB1] rounded-lg text-white font-bold"
         value="Registrate"
       />
     </form>
