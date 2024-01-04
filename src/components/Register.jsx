@@ -18,9 +18,9 @@ const Register = () => {
         {/* Flexy Top Nav */}
         <div>
           <div className="flex justify-end sm:block sm:justify-normal">
-            <div className="pt-7 flex flex-row items-center">
+            <div className="pt-7 mx-3 flex flex-row items-center">
               <img src={Logo} alt="Flexy logo" className="w-24" />
-              <h1 className="text-[#49CEB1] font-bold text-4xl">Login</h1>
+              <h1 className="text-[#4dc5c9] font-bold text-4xl">Login</h1>
             </div>
           </div>
           <div className="flex justify-end sm:block sm:justify-normal">
